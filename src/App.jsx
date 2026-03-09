@@ -1,0 +1,29 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { LanguageProvider } from './context/LanguageContext';
+import { ROUTES } from './constants';
+import Login from './screens/Login/Login';
+import Home from './screens/Home/Home';
+import MealPlan from './screens/MealPlan/MealPlan';
+import Exercises from './screens/Exercises/Exercises';
+import Progress from './screens/Progress/Progress';
+import Profile from './screens/Profile/Profile';
+import './App.css';
+
+function App() {
+  return (
+    <LanguageProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path={ROUTES.LOGIN} element={<Login />} />
+          <Route path={ROUTES.HOME} element={<Home />} />
+          <Route path={ROUTES.MEALS} element={<MealPlan />} />
+          <Route path={ROUTES.EXERCISES} element={<Exercises />} />
+          <Route path={ROUTES.PROGRESS} element={<Progress />} />
+          <Route path={ROUTES.PROFILE} element={<Profile />} />
+        </Routes>
+      </BrowserRouter>
+    </LanguageProvider>
+  );
+}
+
+export default App;

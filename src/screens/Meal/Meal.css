@@ -1,0 +1,227 @@
+.meal {
+    min-height: 100vh;
+    position: relative;
+    padding: 24px;
+    padding-bottom: 80px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* ── Header ── */
+.meal__header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 28px;
+    padding-top: 8px;
+}
+
+.meal__back {
+    background: rgba(22, 33, 62, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meal__back:hover {
+    border-color: rgba(57, 255, 20, 0.3);
+}
+
+.meal__title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.meal__subtitle {
+    color: #8892b0;
+    font-size: 0.9rem;
+}
+
+/* ── Calendar Day Selector ── */
+.meal__calendar {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 28px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+}
+
+.meal__day-btn {
+    flex: 1;
+    min-width: 56px;
+    padding: 12px 8px;
+    background: rgba(22, 33, 62, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    color: #8892b0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    font-family: 'Inter', sans-serif;
+}
+
+.meal__day-btn:hover {
+    border-color: rgba(57, 255, 20, 0.2);
+}
+
+.meal__day-btn--active {
+    background: rgba(57, 255, 20, 0.15);
+    border-color: #39ff14;
+    color: #39ff14;
+}
+
+.meal__day-name {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+/* ── Daily Summary ── */
+.meal__daily-summary {
+    background: rgba(22, 33, 62, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.meal__day-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.meal__macros {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.meal__macro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.meal__macro-value {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.meal__macro-value--cal { color: #39ff14; }
+.meal__macro-value--protein { color: #00d4ff; }
+.meal__macro-value--carbs { color: #ff6b35; }
+.meal__macro-value--fat { color: #ff4757; }
+
+.meal__macro-label {
+    font-size: 0.7rem;
+    color: #8892b0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+/* ── Meal Cards ── */
+.meal__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.meal__card {
+    background: rgba(22, 33, 62, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+    padding: 20px;
+}
+
+.meal__card:hover {
+    border-color: rgba(57, 255, 20, 0.15);
+}
+
+.meal__card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.meal__card-type {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #39ff14;
+    font-weight: 600;
+}
+
+.meal__card-cal {
+    font-size: 0.8rem;
+    color: #8892b0;
+    font-weight: 600;
+}
+
+.meal__card-name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.meal__card-macros {
+    display: flex;
+    gap: 16px;
+}
+
+.meal__card-macro {
+    font-size: 0.78rem;
+    color: #8892b0;
+    font-weight: 500;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+    .meal__macros {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .meal {
+        padding: 16px;
+        padding-bottom: 80px;
+    }
+
+    .meal__title {
+        font-size: 1.4rem;
+    }
+
+    .meal__calendar {
+        gap: 6px;
+    }
+
+    .meal__day-btn {
+        min-width: 44px;
+        padding: 10px 6px;
+    }
+
+    .meal__day-name {
+        font-size: 0.7rem;
+    }
+
+    .meal__macro-value {
+        font-size: 1.1rem;
+    }
+}

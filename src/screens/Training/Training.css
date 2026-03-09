@@ -1,0 +1,270 @@
+.training {
+    min-height: 100vh;
+    position: relative;
+    padding: 24px;
+    padding-bottom: 80px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* ── Header ── */
+.training__header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 28px;
+    padding-top: 8px;
+}
+
+.training__back {
+    background: rgba(22, 33, 62, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.training__back:hover {
+    border-color: rgba(57, 255, 20, 0.3);
+}
+
+.training__title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.training__subtitle {
+    color: #8892b0;
+    font-size: 0.9rem;
+}
+
+/* ── Day Selector ── */
+.training__calendar {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 28px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+}
+
+.training__day-btn {
+    flex: 1;
+    min-width: 56px;
+    padding: 12px 8px;
+    background: rgba(22, 33, 62, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    color: #8892b0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Inter', sans-serif;
+}
+
+.training__day-btn:hover {
+    border-color: rgba(57, 255, 20, 0.2);
+}
+
+.training__day-btn--active {
+    background: rgba(57, 255, 20, 0.15);
+    border-color: #39ff14;
+    color: #39ff14;
+}
+
+.training__day-name {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.training__day-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+/* ── Day Info ── */
+.training__day-info {
+    background: rgba(22, 33, 62, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.training__day-info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.training__day-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.training__type-badge {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.training__focus {
+    color: #8892b0;
+    font-size: 0.9rem;
+}
+
+/* ── Section Title ── */
+.training__section-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 14px;
+}
+
+/* ── Exercises ── */
+.training__exercises {
+    margin-bottom: 24px;
+}
+
+.training__exercise-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.training__exercise-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background: rgba(22, 33, 62, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+}
+
+.training__exercise-card:hover {
+    border-color: rgba(57, 255, 20, 0.15);
+}
+
+.training__exercise-index {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: rgba(57, 255, 20, 0.12);
+    color: #39ff14;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.training__exercise-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.training__exercise-name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.training__exercise-details {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    color: #8892b0;
+}
+
+.training__exercise-rest {
+    margin-left: 8px;
+    opacity: 0.7;
+}
+
+/* ── Cardio ── */
+.training__cardio {
+    margin-bottom: 24px;
+}
+
+.training__cardio-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(22, 33, 62, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+}
+
+.training__cardio-card:hover {
+    border-color: rgba(0, 212, 255, 0.2);
+}
+
+.training__cardio-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.training__cardio-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.training__cardio-duration {
+    font-size: 0.85rem;
+    color: #8892b0;
+}
+
+.training__intensity-badge {
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* ── Responsive ── */
+@media (max-width: 480px) {
+    .training {
+        padding: 16px;
+        padding-bottom: 80px;
+    }
+
+    .training__title {
+        font-size: 1.4rem;
+    }
+
+    .training__calendar {
+        gap: 6px;
+    }
+
+    .training__day-btn {
+        min-width: 44px;
+        padding: 10px 6px;
+    }
+
+    .training__day-name {
+        font-size: 0.7rem;
+    }
+}

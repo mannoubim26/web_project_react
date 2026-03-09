@@ -1,0 +1,89 @@
+/* ── CSS Reset & Design Tokens ── */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #39ff14;
+  --color-secondary: #00d4ff;
+  --color-accent: #ff6b35;
+  --color-dark: #0a0a0a;
+  --color-dark-alt: #1a1a2e;
+  --color-surface: #16213e;
+  --color-surface-light: #1e2a4a;
+  --color-text: #ffffff;
+  --color-text-muted: #8892b0;
+  --color-error: #ff4757;
+  --color-success: #2ed573;
+
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-family);
+  background: var(--color-dark);
+  color: var(--color-text);
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font-family: var(--font-family);
+}
+
+input,
+select,
+textarea {
+  font-family: var(--font-family);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-surface-light);
+  border-radius: 3px;
+}
+
+::selection {
+  background: rgba(57, 255, 20, 0.25);
+  color: #ffffff;
+}

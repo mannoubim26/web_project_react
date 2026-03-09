@@ -1,0 +1,105 @@
+.weekly-plan {
+    margin-top: 24px;
+}
+
+/* ── Day Tabs ── */
+.weekly-plan__tabs {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+
+.weekly-plan__tab {
+    flex: 1;
+    min-width: 48px;
+    padding: 10px 6px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+    color: #8892b0;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
+
+.weekly-plan__tab--active {
+    background: #39ff14;
+    color: #0a0a0a;
+    border-color: #39ff14;
+}
+
+/* ── Items ── */
+.weekly-plan__items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.weekly-plan__item {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    padding: 14px 16px;
+}
+
+.weekly-plan__item--done {
+    opacity: 0.5;
+}
+
+.weekly-plan__checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+}
+
+.weekly-plan__checkbox {
+    display: none;
+}
+
+.weekly-plan__checkmark {
+    width: 24px;
+    height: 24px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #0a0a0a;
+}
+
+.weekly-plan__item--done .weekly-plan__checkmark {
+    background: #39ff14;
+    border-color: #39ff14;
+}
+
+.weekly-plan__item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.weekly-plan__item-name {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.weekly-plan__item-detail {
+    color: #8892b0;
+    font-size: 0.82rem;
+}
+
+/* ── Responsive ── */
+@media (max-width: 480px) {
+    .weekly-plan__tab {
+        padding: 8px 4px;
+        font-size: 0.72rem;
+    }
+}
