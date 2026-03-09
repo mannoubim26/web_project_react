@@ -1,0 +1,54 @@
+/* ═══════════════════════════════════════════════
+   Color Constants – Single source of truth
+   ═══════════════════════════════════════════════ */
+
+:root {
+  /* ── Solid Colors ── */
+  --color-primary: #39ff14;
+  --color-primary-hover: #2de010;
+  --color-primary-active: #25c00d;
+  --color-secondary: #00d4ff;
+  --color-accent: #ff6b35;
+  --color-dark: #0a0a0a;
+  --color-dark-alt: #1a1a2e;
+  --color-dark-bg: #0f0f1a;
+  --color-surface: #16213e;
+  --color-surface-light: #1e2a4a;
+  --color-text: #ffffff;
+  --color-text-muted: #8892b0;
+  --color-text-light: #c8d0e0;
+  --color-text-soft: #c5cee0;
+  --color-error: #ff4757;
+  --color-success: #2ed573;
+
+  /* ── Surface Alphas ── */
+  --color-surface-06: #16213e99;
+  --color-surface-07: #16213eb3;
+  --color-surface-08: #16213ecc;
+  --color-surface-09: #16213ee6;
+  --color-overlay-dark: #0a0a0ad9;
+
+  /* ── White Alphas ── */
+  --color-white-003: #ffffff08;
+  --color-white-004: #ffffff0a;
+  --color-white-005: #ffffff0d;
+  --color-white-006: #ffffff0f;
+  --color-white-008: #ffffff14;
+  --color-white-010: #ffffff1a;
+  --color-white-015: #ffffff26;
+
+  /* ── Primary Alphas ── */
+  --color-primary-003: #39ff1408;
+  --color-primary-006: #39ff140f;
+  --color-primary-008: #39ff1414;
+  --color-primary-012: #39ff141f;
+  --color-primary-015: #39ff1426;
+  --color-primary-020: #39ff1433;
+  --color-primary-025: #39ff1440;
+  --color-primary-030: #39ff144d;
+  --color-primary-050: #39ff1480;
+
+  /* ── Secondary Alphas ── */
+  --color-secondary-010: #00d4ff1a;
+  --color-secondary-020: #00d4ff33;
+}
