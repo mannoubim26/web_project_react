@@ -81,7 +81,8 @@
         "exercises": "Ejercicios",
         "progress": "Progreso",
         "profile": "Perfil",
-        "about": "Acerca"
+        "about": "Acerca",
+        "signOut": "Salir"
     },
     "weeklyPlan": {
         "monday": "Lunes",

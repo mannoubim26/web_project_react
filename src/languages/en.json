@@ -81,7 +81,8 @@
     "exercises": "Exercises",
     "progress": "Progress",
     "profile": "Profile",
-    "about": "About"
+    "about": "About",
+    "signOut": "Sign Out"
   },
   "weeklyPlan": {
     "monday": "Monday",

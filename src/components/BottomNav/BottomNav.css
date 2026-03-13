@@ -53,6 +53,19 @@
     font-weight: 500;
 }
 
+.bottom-nav__spacer {
+    flex: 1;
+}
+
+.bottom-nav__item--signout {
+    color: #ff4757;
+    margin-bottom: 8px;
+}
+
+.bottom-nav__item--signout .bottom-nav__icon {
+    background: rgba(255, 71, 87, 0.12);
+}
+
 @media (max-width: 480px) {
     .bottom-nav {
         width: 60px;

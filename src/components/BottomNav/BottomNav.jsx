@@ -33,6 +33,15 @@ function BottomNav() {
                     </button>
                 );
             })}
+            <div className="bottom-nav__spacer" />
+            <button
+                className="bottom-nav__item bottom-nav__item--signout"
+                onClick={() => navigate(ROUTES.LOGIN)}
+                id="nav-signout"
+            >
+                <span className="bottom-nav__icon">✕</span>
+                <span className="bottom-nav__label">{t('nav.signOut')}</span>
+            </button>
         </nav>
     );
 }
