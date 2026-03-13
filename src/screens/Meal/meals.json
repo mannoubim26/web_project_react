@@ -2,150 +2,156 @@
     "weeklyPlan": {
         "monday": {
             "meal1": {
-                "item1": "Oatmeal",
-                "item2": "Blueberries",
-                "item3": "Honey"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal2": {
-                "item1": "Grilled Chicken",
-                "item2": "Mixed Salad",
-                "item3": "Olive Oil Dressing"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal3": {
-                "item1": "Greek Yogurt",
-                "item2": "Almonds"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal4": {
-                "item1": "Salmon Fillet",
-                "item2": "Quinoa",
-                "item3": "Steamed Broccoli"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             }
         },
         "tuesday": {
             "meal1": {
-                "item1": "Protein Pancakes",
-                "item2": "Banana",
-                "item3": "Maple Syrup"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal2": {
-                "item1": "Turkey Wrap",
-                "item2": "Lettuce",
-                "item3": "Tomato"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal3": {
-                "item1": "Protein Shake",
-                "item2": "Peanut Butter"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal4": {
-                "item1": "Lean Beef",
-                "item2": "Rice",
-                "item3": "Bell Peppers"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             }
         },
         "wednesday": {
             "meal1": {
-                "item1": "Avocado Toast",
-                "item2": "Scrambled Eggs",
-                "item3": "Cherry Tomatoes"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal2": {
-                "item1": "Tuna",
-                "item2": "Sushi Rice",
-                "item3": "Edamame"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal3": {
-                "item1": "Apple",
-                "item2": "Almond Butter"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal4": {
-                "item1": "Chicken Breast",
-                "item2": "Brown Rice",
-                "item3": "Asparagus"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             }
         },
         "thursday": {
             "meal1": {
-                "item1": "Smoothie Bowl",
-                "item2": "Granola",
-                "item3": "Chia Seeds"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal2": {
-                "item1": "Grilled Fish",
-                "item2": "Corn Tortillas",
-                "item3": "Avocado Salsa"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal3": {
-                "item1": "Trail Mix",
-                "item2": "Dark Chocolate"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal4": {
-                "item1": "Pasta",
-                "item2": "Turkey Meatballs",
-                "item3": "Marinara Sauce"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             }
         },
         "friday": {
             "meal1": {
-                "item1": "Egg White Omelette",
-                "item2": "Spinach",
-                "item3": "Feta Cheese"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal2": {
-                "item1": "Chicken Caesar Wrap",
-                "item2": "Parmesan",
-                "item3": "Romaine Lettuce"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal3": {
-                "item1": "Cottage Cheese",
-                "item2": "Pineapple"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal4": {
-                "item1": "Grilled Shrimp",
-                "item2": "Zucchini",
-                "item3": "Sweet Potato"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             }
         },
         "saturday": {
             "meal1": {
-                "item1": "French Toast",
-                "item2": "Strawberries",
-                "item3": "Whipped Cream"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal2": {
-                "item1": "Falafel",
-                "item2": "Hummus",
-                "item3": "Tabbouleh"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal3": {
-                "item1": "Protein Bar",
-                "item2": "Green Tea"
+               "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal4": {
-                "item1": "Grilled Steak",
-                "item2": "Sweet Potato",
-                "item3": "Green Beans"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             }
         },
         "sunday": {
             "meal1": {
-                "item1": "Acai Bowl",
-                "item2": "Coconut Flakes",
-                "item3": "Mixed Berries"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal2": {
-                "item1": "Sushi Rolls",
-                "item2": "Miso Soup",
-                "item3": "Seaweed Salad"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal3": {
-                "item1": "Hummus",
-                "item2": "Carrot Sticks",
-                "item3": "Celery"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             },
             "meal4": {
-                "item1": "Roasted Chicken",
-                "item2": "Mixed Salad",
-                "item3": "Balsamic Vinaigrette"
+                "item1": "item 1",
+                "item2": "item 2",
+                "item3": "item 3"
             }
         }
     }
