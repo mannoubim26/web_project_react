@@ -1,0 +1,58 @@
+{
+    "weeklyPlan": {
+        "monday": {
+            "exercise1": {
+                "item1": "Bench Press — 4x12",
+                "item2": "Dumbbell Flyes — 3x15",
+                "item3": "Push-ups — 3x20",
+                "item4": "Treadmill Run — 30 min"
+            }
+        },
+        "tuesday": {
+            "exercise1": {
+                "item1": "Squats — 4x10",
+                "item2": "Leg Press — 3x12",
+                "item3": "Lunges — 3x14",
+                "item4": "Cycling — 25 min"
+            }
+        },
+        "wednesday": {
+            "exercise1": {
+                "item1": "Pull-ups — 4x8",
+                "item2": "Barbell Rows — 3x12",
+                "item3": "Deadlift — 3x8",
+                "item4": "Jump Rope — 20 min"
+            }
+        },
+        "thursday": {
+            "exercise1": {
+                "item1": "Shoulder Press — 4x10",
+                "item2": "Lateral Raises — 3x15",
+                "item3": "Plank — 3x60s",
+                "item4": "Rowing Machine — 20 min"
+            }
+        },
+        "friday": {
+            "exercise1": {
+                "item1": "Bicep Curls — 4x12",
+                "item2": "Tricep Dips — 3x15",
+                "item3": "Hammer Curls — 3x12",
+                "item4": "Elliptical — 25 min"
+            }
+        },
+        "saturday": {
+            "exercise1": {
+                "item1": "Hiking — 60 min",
+                "item2": "Bodyweight Circuit — 3 rounds",
+                "item3": "Stretching — 20 min"
+            }
+        },
+        "sunday": {
+            "exercise1": {
+                "item1": "Rest Day — Recovery",
+                "item2": "Light Walk — 30 min",
+                "item3": "Foam Rolling — 15 min"
+            }
+        }
+    }
+}

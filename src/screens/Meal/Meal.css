@@ -166,28 +166,33 @@
     font-weight: 600;
 }
 
-.meal__card-cal {
-    font-size: 0.8rem;
-    color: #8892b0;
-    font-weight: 600;
-}
-
-.meal__card-name {
-    font-size: 1.05rem;
-    font-weight: 700;
-    color: #ffffff;
-    margin-bottom: 10px;
-}
-
-.meal__card-macros {
+.meal__card-items {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0;
     display: flex;
-    gap: 16px;
+    flex-direction: column;
+    gap: 6px;
 }
 
-.meal__card-macro {
-    font-size: 0.78rem;
-    color: #8892b0;
-    font-weight: 500;
+.meal__card-item {
+    color: #c8d0e0;
+    font-size: 0.9rem;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.meal__card-item::before {
+    content: '•';
+    color: #39ff14;
+    font-weight: 700;
+}
+
+.meal__card-item:last-child {
+    border-bottom: none;
 }
 
 /* ── Responsive ── */

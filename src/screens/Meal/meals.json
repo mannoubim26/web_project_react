@@ -1,0 +1,152 @@
+{
+    "weeklyPlan": {
+        "monday": {
+            "meal1": {
+                "item1": "Oatmeal",
+                "item2": "Blueberries",
+                "item3": "Honey"
+            },
+            "meal2": {
+                "item1": "Grilled Chicken",
+                "item2": "Mixed Salad",
+                "item3": "Olive Oil Dressing"
+            },
+            "meal3": {
+                "item1": "Greek Yogurt",
+                "item2": "Almonds"
+            },
+            "meal4": {
+                "item1": "Salmon Fillet",
+                "item2": "Quinoa",
+                "item3": "Steamed Broccoli"
+            }
+        },
+        "tuesday": {
+            "meal1": {
+                "item1": "Protein Pancakes",
+                "item2": "Banana",
+                "item3": "Maple Syrup"
+            },
+            "meal2": {
+                "item1": "Turkey Wrap",
+                "item2": "Lettuce",
+                "item3": "Tomato"
+            },
+            "meal3": {
+                "item1": "Protein Shake",
+                "item2": "Peanut Butter"
+            },
+            "meal4": {
+                "item1": "Lean Beef",
+                "item2": "Rice",
+                "item3": "Bell Peppers"
+            }
+        },
+        "wednesday": {
+            "meal1": {
+                "item1": "Avocado Toast",
+                "item2": "Scrambled Eggs",
+                "item3": "Cherry Tomatoes"
+            },
+            "meal2": {
+                "item1": "Tuna",
+                "item2": "Sushi Rice",
+                "item3": "Edamame"
+            },
+            "meal3": {
+                "item1": "Apple",
+                "item2": "Almond Butter"
+            },
+            "meal4": {
+                "item1": "Chicken Breast",
+                "item2": "Brown Rice",
+                "item3": "Asparagus"
+            }
+        },
+        "thursday": {
+            "meal1": {
+                "item1": "Smoothie Bowl",
+                "item2": "Granola",
+                "item3": "Chia Seeds"
+            },
+            "meal2": {
+                "item1": "Grilled Fish",
+                "item2": "Corn Tortillas",
+                "item3": "Avocado Salsa"
+            },
+            "meal3": {
+                "item1": "Trail Mix",
+                "item2": "Dark Chocolate"
+            },
+            "meal4": {
+                "item1": "Pasta",
+                "item2": "Turkey Meatballs",
+                "item3": "Marinara Sauce"
+            }
+        },
+        "friday": {
+            "meal1": {
+                "item1": "Egg White Omelette",
+                "item2": "Spinach",
+                "item3": "Feta Cheese"
+            },
+            "meal2": {
+                "item1": "Chicken Caesar Wrap",
+                "item2": "Parmesan",
+                "item3": "Romaine Lettuce"
+            },
+            "meal3": {
+                "item1": "Cottage Cheese",
+                "item2": "Pineapple"
+            },
+            "meal4": {
+                "item1": "Grilled Shrimp",
+                "item2": "Zucchini",
+                "item3": "Sweet Potato"
+            }
+        },
+        "saturday": {
+            "meal1": {
+                "item1": "French Toast",
+                "item2": "Strawberries",
+                "item3": "Whipped Cream"
+            },
+            "meal2": {
+                "item1": "Falafel",
+                "item2": "Hummus",
+                "item3": "Tabbouleh"
+            },
+            "meal3": {
+                "item1": "Protein Bar",
+                "item2": "Green Tea"
+            },
+            "meal4": {
+                "item1": "Grilled Steak",
+                "item2": "Sweet Potato",
+                "item3": "Green Beans"
+            }
+        },
+        "sunday": {
+            "meal1": {
+                "item1": "Acai Bowl",
+                "item2": "Coconut Flakes",
+                "item3": "Mixed Berries"
+            },
+            "meal2": {
+                "item1": "Sushi Rolls",
+                "item2": "Miso Soup",
+                "item3": "Seaweed Salad"
+            },
+            "meal3": {
+                "item1": "Hummus",
+                "item2": "Carrot Sticks",
+                "item3": "Celery"
+            },
+            "meal4": {
+                "item1": "Roasted Chicken",
+                "item2": "Mixed Salad",
+                "item3": "Balsamic Vinaigrette"
+            }
+        }
+    }
+}

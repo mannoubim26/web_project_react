@@ -26,6 +26,120 @@
     font-size: 0.95rem;
 }
 
+/* ── Day Selector ── */
+.exercises__calendar {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 28px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+}
+
+.exercises__day-btn {
+    flex: 1;
+    min-width: 56px;
+    padding: 12px 8px;
+    background: rgba(22, 33, 62, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    color: #8892b0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    font-family: 'Inter', sans-serif;
+}
+
+.exercises__day-btn:hover {
+    border-color: rgba(57, 255, 20, 0.2);
+}
+
+.exercises__day-btn--active {
+    background: rgba(57, 255, 20, 0.15);
+    border-color: #39ff14;
+    color: #39ff14;
+}
+
+.exercises__day-name {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+/* ── Day Header ── */
+.exercises__day-header {
+    background: rgba(22, 33, 62, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+}
+
+.exercises__day-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* ── Exercise Cards ── */
+.exercises__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.exercises__card {
+    background: rgba(22, 33, 62, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+    padding: 20px;
+}
+
+.exercises__card:hover {
+    border-color: rgba(57, 255, 20, 0.15);
+}
+
+.exercises__card-header {
+    margin-bottom: 8px;
+}
+
+.exercises__card-type {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #00d4ff;
+    font-weight: 600;
+}
+
+.exercises__card-items {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.exercises__card-item {
+    color: #c8d0e0;
+    font-size: 0.9rem;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.exercises__card-item::before {
+    content: '•';
+    color: #00d4ff;
+    font-weight: 700;
+}
+
+.exercises__card-item:last-child {
+    border-bottom: none;
+}
+
 @media (max-width: 480px) {
     .exercises {
         padding: 16px;
@@ -39,5 +153,18 @@
 
     .exercises__title {
         font-size: 1.6rem;
+    }
+
+    .exercises__calendar {
+        gap: 6px;
+    }
+
+    .exercises__day-btn {
+        min-width: 44px;
+        padding: 10px 6px;
+    }
+
+    .exercises__day-name {
+        font-size: 0.7rem;
     }
 }
