@@ -74,7 +74,15 @@ function Login() {
                 {/* Footer */}
                 <p className="login__footer">
                     {t('login.noAccount')}{' '}
-                    <a href="#" className="login__signup-link" id="sign-up-link">
+                    <a
+                        href="#"
+                        className="login__signup-link"
+                        id="sign-up-link"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            navigate(ROUTES.SIGNUP);
+                        }}
+                    >
                         {t('login.signUp')}
                     </a>
                 </p>
