@@ -80,7 +80,8 @@
         "meals": "Pasti",
         "exercises": "Esercizi",
         "progress": "Progressi",
-        "profile": "Profilo"
+        "profile": "Profilo",
+        "about": "Info"
     },
     "weeklyPlan": {
         "monday": "Lunedì",
@@ -165,5 +166,19 @@
         "es": "Spagnolo",
         "fr": "Francese",
         "it": "Italiano"
+    },
+    "aboutCoach": {
+        "title": "Il Tuo Coach",
+        "subtitle": "Scopri la tua guida fitness",
+        "bio": "Questa sezione è dedicata al tuo coach personale. Qui troverai informazioni sul percorso, la filosofia di allenamento e l'esperienza del tuo coach. Il tuo coach è impegnato ad aiutarti a raggiungere i tuoi obiettivi fitness con una guida e un supporto personalizzati. Il contenuto sarà aggiornato con i dettagli del tuo coach.",
+        "certificatesTitle": "Certificazioni e Qualifiche",
+        "cert1": "Personal Trainer Certificato (CPT)",
+        "cert2": "Specialista in Nutrizione Sportiva",
+        "cert3": "Coach di Forza e Condizionamento",
+        "cert4": "Primo Soccorso e BLS Certificato",
+        "connectTitle": "Contatta il Coach",
+        "instagram": "Instagram",
+        "tiktok": "TikTok",
+        "linkedin": "LinkedIn"
     }
 }

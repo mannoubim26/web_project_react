@@ -34,6 +34,7 @@ export const ROUTES = {
   TRAINING: '/training',
   PROGRESS: '/progress',
   PROFILE: '/profile',
+  ABOUT: '/about',
 };
 
 // Supported Languages

@@ -9,6 +9,7 @@ const navItems = [
     { key: 'exercises', route: ROUTES.EXERCISES, icon: 'E' },
     { key: 'progress', route: ROUTES.PROGRESS, icon: 'P' },
     { key: 'profile', route: ROUTES.PROFILE, icon: 'U' },
+    { key: 'about', route: ROUTES.ABOUT, icon: 'A' },
 ];
 
 function BottomNav() {

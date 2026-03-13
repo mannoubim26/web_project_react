@@ -8,6 +8,7 @@ import Exercises from './screens/Exercises/Exercises';
 import Progress from './screens/Progress/Progress';
 import Profile from './screens/Profile/Profile';
 import SignUp from './screens/SignUp/SignUp';
+import AboutCoach from './screens/AboutCoach/AboutCoach';
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path={ROUTES.PROGRESS} element={<Progress />} />
           <Route path={ROUTES.PROFILE} element={<Profile />} />
           <Route path={ROUTES.SIGNUP} element={<SignUp />} />
+          <Route path={ROUTES.ABOUT} element={<AboutCoach />} />
         </Routes>
       </BrowserRouter>
     </LanguageProvider>

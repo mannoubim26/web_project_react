@@ -1,0 +1,239 @@
+.about-coach {
+    min-height: 100vh;
+    padding: 24px;
+    padding-left: 104px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* ── Header ── */
+.about-coach__header {
+    margin-bottom: 32px;
+}
+
+.about-coach__title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 4px;
+}
+
+.about-coach__subtitle {
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+}
+
+/* ── Coach Profile Card ── */
+.about-coach__profile {
+    background: var(--color-surface);
+    border-radius: 16px;
+    border: 1px solid var(--color-white-006);
+    padding: 32px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.about-coach__avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: var(--color-primary-020);
+    border: 3px solid var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+}
+
+.about-coach__avatar svg {
+    width: 48px;
+    height: 48px;
+    color: var(--color-primary);
+}
+
+.about-coach__name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 4px;
+}
+
+.about-coach__role {
+    color: var(--color-primary);
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.about-coach__bio {
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    text-align: left;
+}
+
+/* ── Certificates Card ── */
+.about-coach__certs {
+    background: var(--color-surface);
+    border-radius: 16px;
+    border: 1px solid var(--color-white-006);
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.about-coach__section-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.about-coach__section-title svg {
+    width: 20px;
+    height: 20px;
+    color: var(--color-secondary);
+}
+
+.about-coach__cert-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.about-coach__cert-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--color-white-004);
+    border-radius: 10px;
+    padding: 14px 16px;
+}
+
+.about-coach__cert-icon {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    border-radius: 8px;
+    background: var(--color-primary-015);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-coach__cert-icon svg {
+    width: 18px;
+    height: 18px;
+    color: var(--color-primary);
+}
+
+.about-coach__cert-name {
+    color: var(--color-text);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* ── Contact / Social Card ── */
+.about-coach__contact {
+    background: var(--color-surface);
+    border-radius: 16px;
+    border: 1px solid var(--color-white-006);
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.about-coach__socials {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.about-coach__social-link {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: var(--color-white-004);
+    border-radius: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: background 0.2s;
+}
+
+.about-coach__social-link:hover {
+    background: var(--color-white-008);
+}
+
+.about-coach__social-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-coach__social-icon--instagram {
+    background: linear-gradient(135deg, #f5876733, #e1306c33);
+}
+
+.about-coach__social-icon--tiktok {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--color-white-010);
+}
+
+.about-coach__social-icon--linkedin {
+    background: #0a66c233;
+}
+
+.about-coach__social-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.about-coach__social-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-coach__social-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.about-coach__social-handle {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+}
+
+/* ── Responsive ── */
+@media (max-width: 480px) {
+    .about-coach {
+        padding: 16px;
+        padding-left: 76px;
+    }
+
+    .about-coach__title {
+        font-size: 1.4rem;
+    }
+
+    .about-coach__profile {
+        padding: 24px 16px;
+    }
+
+    .about-coach__avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    .about-coach__name {
+        font-size: 1.3rem;
+    }
+}

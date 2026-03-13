@@ -80,7 +80,8 @@
         "meals": "Comidas",
         "exercises": "Ejercicios",
         "progress": "Progreso",
-        "profile": "Perfil"
+        "profile": "Perfil",
+        "about": "Acerca"
     },
     "weeklyPlan": {
         "monday": "Lunes",
@@ -165,5 +166,19 @@
         "es": "Español",
         "fr": "Francés",
         "it": "Italiano"
+    },
+    "aboutCoach": {
+        "title": "Sobre Tu Entrenador",
+        "subtitle": "Conoce a tu guía fitness",
+        "bio": "Esta sección está dedicada a tu entrenador personal. Aquí encontrarás información sobre la trayectoria, filosofía de entrenamiento y experiencia de tu entrenador. Tu entrenador está comprometido a ayudarte a alcanzar tus objetivos fitness con orientación y apoyo personalizado. El contenido se actualizará con los detalles de tu entrenador.",
+        "certificatesTitle": "Certificaciones y Cualificaciones",
+        "cert1": "Entrenador Personal Certificado (CPT)",
+        "cert2": "Especialista en Nutrición Deportiva",
+        "cert3": "Entrenador de Fuerza y Acondicionamiento",
+        "cert4": "Primeros Auxilios y RCP Certificado",
+        "connectTitle": "Conecta con el Entrenador",
+        "instagram": "Instagram",
+        "tiktok": "TikTok",
+        "linkedin": "LinkedIn"
     }
 }

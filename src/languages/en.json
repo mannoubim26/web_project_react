@@ -80,7 +80,8 @@
     "meals": "Meals",
     "exercises": "Exercises",
     "progress": "Progress",
-    "profile": "Profile"
+    "profile": "Profile",
+    "about": "About"
   },
   "weeklyPlan": {
     "monday": "Monday",
@@ -165,5 +166,19 @@
     "es": "Spanish",
     "fr": "French",
     "it": "Italian"
+  },
+  "aboutCoach": {
+    "title": "About Your Coach",
+    "subtitle": "Get to know your fitness guide",
+    "bio": "This section is dedicated to your personal coach. Here you will find information about your coach's background, training philosophy, and expertise. Your coach is committed to helping you achieve your fitness goals with personalized guidance and support. Content will be updated with your coach's details.",
+    "certificatesTitle": "Certifications & Qualifications",
+    "cert1": "Certified Personal Trainer (CPT)",
+    "cert2": "Sports Nutrition Specialist",
+    "cert3": "Strength & Conditioning Coach",
+    "cert4": "First Aid & CPR Certified",
+    "connectTitle": "Connect with Coach",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "linkedin": "LinkedIn"
   }
 }
