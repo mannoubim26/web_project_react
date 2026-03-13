@@ -1,7 +1,7 @@
 .profile {
     min-height: 100vh;
     padding: 24px;
-    padding-bottom: 80px;
+    padding-left: 104px;
     max-width: 900px;
     margin: 0 auto;
 }
@@ -84,7 +84,7 @@
 @media (max-width: 480px) {
     .profile {
         padding: 16px;
-        padding-bottom: 80px;
+        padding-left: 76px;
     }
 
     .profile__header {

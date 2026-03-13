@@ -100,7 +100,7 @@
 }
 
 .login__signup-link {
-    color: #39ff14;
+    color: colorforthebackground;
     font-weight: 600;
     text-decoration: none;
 }

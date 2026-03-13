@@ -1,15 +1,17 @@
 .bottom-nav {
     position: fixed;
-    bottom: 0;
+    top: 0;
     left: 0;
-    right: 0;
+    bottom: 0;
+    width: 80px;
     z-index: 1000;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
+    gap: 8px;
+    padding: 24px 0;
     background: #0f0f1a;
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
-    padding: 8px 0 12px;
+    border-right: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .bottom-nav__item {
@@ -22,7 +24,8 @@
     color: #8892b0;
     font-family: 'Inter', sans-serif;
     cursor: pointer;
-    padding: 4px 12px;
+    padding: 10px 8px;
+    width: 100%;
 }
 
 .bottom-nav__item--active {
@@ -51,11 +54,16 @@
 }
 
 @media (max-width: 480px) {
+    .bottom-nav {
+        width: 60px;
+        padding: 16px 0;
+    }
+
     .bottom-nav__item {
-        padding: 4px 8px;
+        padding: 8px 4px;
     }
 
     .bottom-nav__label {
-        font-size: 0.65rem;
+        font-size: 0.6rem;
     }
 }
