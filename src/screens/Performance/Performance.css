@@ -17,7 +17,7 @@
 }
 
 .performance__back {
-    background: rgba(22, 33, 62, 0.6);
+    background: #112131;
     border: 1px solid rgba(255, 255, 255, 0.06);
     color: #ffffff;
     width: 40px;
@@ -31,7 +31,7 @@
 }
 
 .performance__back:hover {
-    border-color: rgba(57, 255, 20, 0.3);
+    border-color: rgba(255, 255, 255, 0.3);
 }
 
 .performance__title {
@@ -42,7 +42,7 @@
 }
 
 .performance__subtitle {
-    color: #8892b0;
+    color: #fdfeff;
     font-size: 0.9rem;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .performance__summary-card {
-    background: rgba(22, 33, 62, 0.6);
+    background: #112131;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 14px;
     padding: 20px 12px;
@@ -67,7 +67,7 @@
 }
 
 .performance__summary-card:hover {
-    border-color: rgba(57, 255, 20, 0.2);
+    border-color: rgba(254, 255, 255, 0.2);
 }
 
 .performance__summary-value {
@@ -84,7 +84,7 @@
 
 .performance__summary-label {
     font-size: 0.75rem;
-    color: #8892b0;
+    color: #e0e3ea;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     font-weight: 500;

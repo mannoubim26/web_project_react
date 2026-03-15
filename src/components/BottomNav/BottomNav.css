@@ -29,7 +29,7 @@
 }
 
 .bottom-nav__item--active {
-    color: #39ff14;
+    color: #61C2FA;
 }
 
 .bottom-nav__icon {
@@ -45,7 +45,7 @@
 }
 
 .bottom-nav__item--active .bottom-nav__icon {
-    background: rgba(57, 255, 20, 0.15);
+    background: rgba(254, 255, 254, 0.15);
 }
 
 .bottom-nav__label {

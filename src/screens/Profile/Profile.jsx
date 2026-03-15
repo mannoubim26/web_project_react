@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
+import { useNavigate } from 'react-router-dom';
 import LanguageSwitcher from '../../components/LanguageSwitcher/LanguageSwitcher';
 import Button from '../../components/Button/Button';
 import Input from '../../components/Input/Input';
@@ -8,6 +9,7 @@ import './Profile.css';
 
 function Profile() {
     const { t } = useLanguage();
+    const navigate = useNavigate();
     const [weight, setWeight] = useState('');
     const [message, setMessage] = useState('');
     const [weightSaved, setWeightSaved] = useState(false);
@@ -31,6 +33,7 @@ function Profile() {
     return (
         <div className="profile">
             <header className="profile__header">
+                <button className="profile__back" onClick={() => navigate('/home')}>←</button>
                 <div>
                     <h1 className="profile__title">{t('profile.title')}</h1>
                     <p className="profile__subtitle">{t('profile.subtitle')}</p>

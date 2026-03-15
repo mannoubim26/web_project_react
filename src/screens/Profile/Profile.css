@@ -9,9 +9,28 @@
 .profile__header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 32px;
     padding-top: 8px;
+    gap: 16px;
+}
+
+.profile__back {
+    background: #22415B;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile__back:hover {
+    border-color: #E8F5FA;
 }
 
 .profile__title {
@@ -22,13 +41,13 @@
 }
 
 .profile__subtitle {
-    color: #8892b0;
+    color: #e9eaee;
     font-size: 0.95rem;
 }
 
 /* ── Sections ── */
 .profile__section {
-    background: rgba(22, 33, 62, 0.6);
+    background: #22425C;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 14px;
     padding: 24px;
@@ -54,19 +73,19 @@
 .profile__textarea {
     width: 100%;
     padding: 14px 16px;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(248, 253, 255, 0.04);
+    border: 1px solid rgba(251, 251, 251, 0.08);
     border-radius: 8px;
     color: #ffffff;
     font-family: 'Inter', sans-serif;
     font-size: 0.95rem;
     resize: vertical;
     outline: none;
-    caret-color: #39ff14;
+    caret-color: #E8F5FA;
 }
 
 .profile__textarea:focus {
-    border-color: #39ff14;
+    border-color: #E8F5FA;
 }
 
 .profile__textarea::placeholder {

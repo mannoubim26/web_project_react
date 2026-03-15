@@ -17,16 +17,16 @@
 
 /* Primary */
 .btn--primary {
-  background: #39ff14;
+  background: #E8F5FA;
   color: #0a0a0a;
 }
 
 .btn--primary:hover {
-  background: #2de010;
+  background: #E8F5FA;
 }
 
 .btn--primary:active {
-  background: #25c00d;
+  background: #E8F5FA;
 }
 
 /* Secondary */
@@ -38,8 +38,8 @@
 
 .btn--secondary:hover {
   background: rgba(255, 255, 255, 0.1);
-  border-color: #39ff14;
-  color: #39ff14;
+  border-color: #E8F5FA;
+  color: #E8F5FA;
 }
 
 /* Ghost */

@@ -9,6 +9,18 @@
 /* ── Header ── */
 .about-coach__header {
     margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+    gap: 16px;
+}
+
+.progress-screen__header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 28px;
+    padding-top: 8px;
 }
 
 .about-coach__title {
@@ -21,6 +33,24 @@
 .about-coach__subtitle {
     color: var(--color-text-muted);
     font-size: 0.95rem;
+}
+
+.about-coach__back {
+    background: #22415B;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-coach__back:hover {
+    border-color: #E8F5FA;
 }
 
 /* ── Coach Profile Card ── */

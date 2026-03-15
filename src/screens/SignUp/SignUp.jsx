@@ -94,8 +94,8 @@ function SignUp() {
                     <div className="signup__overlay-card">
                         <div className="signup__overlay-icon">
                             <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="26" cy="26" r="25" stroke="#39ff14" strokeWidth="2" />
-                                <path d="M14 27l8 8 16-16" stroke="#39ff14" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                                <circle cx="26" cy="26" r="25" stroke="#61C2FA" strokeWidth="2" />
+                                <path d="M14 27l8 8 16-16" stroke="#61C2FA" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                         </div>
                         <h3 className="signup__overlay-title">{t('signup.accountCreated')}</h3>
@@ -197,7 +197,7 @@ function SignUp() {
                                     {pkg.benefitKeys.map((bKey, i) => (
                                         <li key={i} className="signup__package-benefit">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                                <path d="M3 8l3.5 3.5L13 5" stroke="#39ff14" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                                <path d="M3 8l3.5 3.5L13 5" stroke="#61C2FA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                             </svg>
                                             {t(bKey)}
                                         </li>

@@ -7,7 +7,7 @@ function LanguageSwitcher() {
 
     return (
         <div className="lang-switcher" id="language-switcher">
-            <span className="lang-switcher__icon">Lang</span>
+            <span className="lang-switcher__icon">🌐</span>
             <select
                 className="lang-switcher__select"
                 value={language}

@@ -4,15 +4,15 @@
 
 :root {
   /* ── Solid Colors ── */
-  --color-primary: #39ff14;
-  --color-primary-hover: #2de010;
-  --color-primary-active: #25c00d;
+  --color-primary: #61C2FA;
+  --color-primary-hover: #aed2ea;
+  --color-primary-active: #9de3ee;
   --color-secondary: #00d4ff;
   --color-accent: #ff6b35;
-  --color-dark: #0a0a0a;
+  --color-dark: #CFE5DA;
   --color-dark-alt: #1a1a2e;
-  --color-dark-bg: #0f0f1a;
-  --color-surface: #16213e;
+  --color-dark-bg: #22425C;
+  --color-surface: #CFE5DA; /* 16213e */
   --color-surface-light: #1e2a4a;
   --color-text: #ffffff;
   --color-text-muted: #8892b0;
@@ -22,11 +22,11 @@
   --color-success: #2ed573;
 
   /* ── Surface Alphas ── */
-  --color-surface-06: #16213e99;
-  --color-surface-07: #16213eb3;
-  --color-surface-08: #16213ecc;
-  --color-surface-09: #16213ee6;
-  --color-overlay-dark: #0a0a0ad9;
+  --color-surface-06: #CFE5DAb2;
+  --color-surface-07: #CFE5DAcc;
+  --color-surface-08: #CFE5DAe6;
+  --color-surface-09: #CFE5DAff;
+  --color-overlay-dark: rgb(146, 165, 155);
 
   /* ── White Alphas ── */
   --color-white-003: #ffffff08;

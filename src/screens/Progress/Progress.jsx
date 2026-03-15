@@ -1,4 +1,5 @@
 import { useLanguage } from '../../context/LanguageContext';
+import { useNavigate } from 'react-router-dom';
 import LanguageSwitcher from '../../components/LanguageSwitcher/LanguageSwitcher';
 import Chart from '../../components/Chart/Chart';
 import BottomNav from '../../components/BottomNav/BottomNav';
@@ -39,10 +40,13 @@ const powerData = [
 
 function Progress() {
     const { t } = useLanguage();
+    const navigate = useNavigate();
 
     return (
         <div className="progress-screen">
+            
             <header className="progress-screen__header">
+                <button className="progress__back" onClick={() => navigate('/home')}>←</button>
                 <div>
                     <h1 className="progress-screen__title">{t('progress.title')}</h1>
                     <p className="progress-screen__subtitle">{t('progress.subtitle')}</p>

@@ -17,7 +17,7 @@
 }
 
 .meal__back {
-    background: rgba(22, 33, 62, 0.6);
+    background: #22415B;
     border: 1px solid rgba(255, 255, 255, 0.06);
     color: #ffffff;
     width: 40px;
@@ -31,7 +31,7 @@
 }
 
 .meal__back:hover {
-    border-color: rgba(57, 255, 20, 0.3);
+    border-color: #E8F5FA;
 }
 
 .meal__title {
@@ -42,7 +42,7 @@
 }
 
 .meal__subtitle {
-    color: #8892b0;
+    color: hsl(230, 13%, 91%);
     font-size: 0.9rem;
 }
 
@@ -59,10 +59,10 @@
     flex: 1;
     min-width: 56px;
     padding: 12px 8px;
-    background: rgba(22, 33, 62, 0.6);
+    background: #22425C;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 12px;
-    color: #8892b0;
+    color: #f3f4f9;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -76,9 +76,9 @@
 }
 
 .meal__day-btn--active {
-    background: rgba(57, 255, 20, 0.15);
-    border-color: #39ff14;
-    color: #39ff14;
+    background: rgba(251, 255, 251, 0.15);
+    border-color: #E8F5FA;
+    color: #E8F5FA;
 }
 
 .meal__day-name {
@@ -88,7 +88,7 @@
 
 /* ── Daily Summary ── */
 .meal__daily-summary {
-    background: rgba(22, 33, 62, 0.6);
+    background: #22425C;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 14px;
     padding: 24px;
@@ -141,14 +141,14 @@
 }
 
 .meal__card {
-    background: rgba(22, 33, 62, 0.6);
+    background: #22425C;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 14px;
     padding: 20px;
 }
 
 .meal__card:hover {
-    border-color: rgba(57, 255, 20, 0.15);
+    border-color: rgba(241, 247, 247, 0.15);
 }
 
 .meal__card-header {
@@ -162,7 +162,7 @@
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    color: #39ff14;
+    color: #61C2FA;
     font-weight: 600;
 }
 
@@ -176,7 +176,7 @@
 }
 
 .meal__card-item {
-    color: #c8d0e0;
+    color: #f4f4f4;
     font-size: 0.9rem;
     padding: 6px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.04);
@@ -187,7 +187,7 @@
 
 .meal__card-item::before {
     content: '•';
-    color: #39ff14;
+    color: #61C2FA;
     font-weight: 700;
 }
 

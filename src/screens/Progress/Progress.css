@@ -8,9 +8,9 @@
 
 .progress-screen__header {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 32px;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 28px;
     padding-top: 8px;
 }
 
@@ -22,8 +22,26 @@
 }
 
 .progress-screen__subtitle {
-    color: #8892b0;
+    color: #e8e9ec;
     font-size: 0.95rem;
+}
+
+.progress__back {
+    background: #22415B;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress__back:hover {
+    border-color: #E8F5FA;
 }
 
 @media (max-width: 480px) {

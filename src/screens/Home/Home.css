@@ -19,12 +19,12 @@
 .home__title {
     font-size: 2rem;
     font-weight: 800;
-    color: #ffffff;
+    color: #E8F5FA;
     margin-bottom: 4px;
 }
 
 .home__subtitle {
-    color: #8892b0;
+    color: #ffffff;
     font-size: 0.95rem;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .home__stat-card {
-    background: rgba(22, 33, 62, 0.6);
+    background: #23425C;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 14px;
     padding: 24px 16px;
@@ -54,12 +54,12 @@
 .home__stat-value {
     font-size: 1.6rem;
     font-weight: 800;
-    color: #39ff14;
+    color: #61C2FA;
 }
 
 .home__stat-label {
     font-size: 0.8rem;
-    color: #8892b0;
+    color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     font-weight: 500;
@@ -75,7 +75,7 @@
 
 /* ── Weekly Goal ── */
 .home__goal {
-    background: rgba(22, 33, 62, 0.6);
+    background: #0E405C;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 14px;
     padding: 24px;
@@ -96,7 +96,7 @@
 .home__goal-badge {
     font-size: 0.8rem;
     background: rgba(57, 255, 20, 0.15);
-    color: #39ff14;
+    color: #61C2FA;
     padding: 4px 12px;
     border-radius: 20px;
     font-weight: 600;
@@ -112,7 +112,7 @@
 
 .home__progress-bar {
     height: 100%;
-    background: #39ff14;
+    background: #61C2FA;
     border-radius: 10px;
 }
 
@@ -137,14 +137,14 @@
     border-radius: 14px;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
-    color: #ffffff;
+    color: #23385C;
     width: 100%;
     text-align: left;
 }
 
 .home__screen-card:hover {
-    border-color: rgba(57, 255, 20, 0.25);
-    background: rgba(22, 33, 62, 0.8);
+    border-color: rgba(221, 234, 237, 0.466);
+    background: rgba(187, 196, 222, 0.8);
 }
 
 .home__screen-icon {
@@ -172,11 +172,12 @@
 
 /* ── Today's Plan ── */
 .home__plan {
-    background: rgba(22, 33, 62, 0.6);
+    background: #0E405C;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 14px;
     padding: 24px;
     margin-bottom: 32px;
+    margin-top: 40px;
 }
 
 .home__plan-list {
@@ -213,8 +214,8 @@
     flex-shrink: 0;
     font-size: 0.85rem;
     font-weight: 700;
-    background: #39ff14;
-    color: #0a0a0a;
+    background: #61C2FA;
+    color: #CFE5DA;
 }
 
 .home__plan-check--pending {
@@ -235,7 +236,7 @@
 }
 
 .home__plan-detail {
-    color: #8892b0;
+    color: #9ea7c2;
     font-size: 0.82rem;
 }
 

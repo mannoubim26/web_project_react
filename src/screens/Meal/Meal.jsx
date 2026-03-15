@@ -25,6 +25,7 @@ function Meal() {
                     <h1 className="meal__title">{t('meals.title')}</h1>
                     <p className="meal__subtitle">{t('meals.subtitle')}</p>
                 </div>
+              
             </header>
 
             {/* Day Selector Calendar */}

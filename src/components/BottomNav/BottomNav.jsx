@@ -4,12 +4,12 @@ import { ROUTES } from '../../constants';
 import './BottomNav.css';
 
 const navItems = [
-    { key: 'home', route: ROUTES.HOME, icon: 'H' },
-    { key: 'meals', route: ROUTES.MEALS, icon: 'M' },
-    { key: 'exercises', route: ROUTES.EXERCISES, icon: 'E' },
-    { key: 'progress', route: ROUTES.PROGRESS, icon: 'P' },
-    { key: 'profile', route: ROUTES.PROFILE, icon: 'U' },
-    { key: 'about', route: ROUTES.ABOUT, icon: 'A' },
+    { key: 'home', route: ROUTES.HOME, icon: '🏠' },
+    { key: 'meals', route: ROUTES.MEALS, icon: '🥗' },
+    { key: 'exercises', route: ROUTES.EXERCISES, icon: '💪' },
+    { key: 'progress', route: ROUTES.PROGRESS, icon: '📈' },
+    { key: 'profile', route: ROUTES.PROFILE, icon: '👤' },
+    { key: 'about', route: ROUTES.ABOUT, icon: 'ℹ️' },
 ];
 
 function BottomNav() {

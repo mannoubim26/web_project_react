@@ -61,7 +61,7 @@
 .signup__app-name {
     font-size: 1.5rem;
     font-weight: 800;
-    color: #39ff14;
+    color: #61C2FA;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -81,7 +81,7 @@
 
 .signup__subtitle {
     font-size: 0.95rem;
-    color: #8892b0;
+    color: #dfe1e7;
     line-height: 1.5;
 }
 
@@ -106,7 +106,7 @@
 }
 
 .signup__select-group--active {
-    border-color: #39ff14;
+    border-color: #E8F5FA;
     background: rgba(57, 255, 20, 0.03);
 }
 
@@ -147,7 +147,7 @@
 }
 
 .signup__select-group--active .signup__select-label {
-    color: #39ff14;
+    color: #E8F5FA;
 }
 
 /* Select arrow */
@@ -161,13 +161,13 @@
     height: 0;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    border-top: 6px solid #8892b0;
+    border-top: 6px solid #b3b9cb;
     pointer-events: none;
     transition: border-color 0.2s;
 }
 
 .signup__select-group--active::after {
-    border-top-color: #39ff14;
+    border-top-color: #61C2FA;
 }
 
 /* ═══════════════════════════════════════════════
@@ -219,19 +219,19 @@
 }
 
 .signup__package:hover {
-    border-color: rgba(57, 255, 20, 0.3);
+    border-color: rgba(20, 181, 255, 0.3);
     transform: translateY(-4px);
-    box-shadow: 0 12px 40px rgba(57, 255, 20, 0.08);
+    box-shadow: 0 12px 40px rgba(20, 169, 255, 0.08);
 }
 
 .signup__package--selected {
-    border-color: #39ff14;
-    background: rgba(57, 255, 20, 0.06);
+    border-color: #E8F5FA;
+    background: rgba(180, 219, 230, 0.06);
     box-shadow: 0 0 30px rgba(57, 255, 20, 0.12), inset 0 0 30px rgba(57, 255, 20, 0.03);
 }
 
 .signup__package--selected:hover {
-    border-color: #39ff14;
+    border-color: #E8F5FA;
 }
 
 /* Popular badge */
@@ -240,7 +240,7 @@
     top: -10px;
     left: 50%;
     transform: translateX(-50%);
-    background: linear-gradient(135deg, #39ff14, #00d4ff);
+    background: linear-gradient(135deg, #E8F5FA, #00d4ff);
     color: #0a0a0a;
     font-size: 0.7rem;
     font-weight: 700;
@@ -261,7 +261,7 @@
 }
 
 .signup__package--selected .signup__package-icon {
-    color: #39ff14;
+    color: #E8F5FA;
 }
 
 .signup__package-icon svg {
@@ -289,7 +289,7 @@
 .signup__package-amount {
     font-size: 1.8rem;
     font-weight: 800;
-    color: #39ff14;
+    color: #61C2FA;
 }
 
 .signup__package-period {
@@ -347,14 +347,14 @@
 }
 
 .signup__package--selected .signup__package-select-btn {
-    background: #39ff14;
+    background: #61C2FA;
     color: #0a0a0a;
-    border-color: #39ff14;
+    border-color: #61C2FA;
 }
 
 .signup__package:hover .signup__package-select-btn {
-    border-color: rgba(57, 255, 20, 0.5);
-    color: #39ff14;
+    border-color: rgba(239, 243, 243, 0.5);
+    color: #61C2FA;
 }
 
 .signup__package--selected:hover .signup__package-select-btn {
@@ -377,7 +377,7 @@
 }
 
 .signup__signin-link {
-    color: #39ff14;
+    color: #61C2FA;
     font-weight: 600;
     text-decoration: none;
     cursor: pointer;
@@ -428,7 +428,7 @@
 .signup__overlay-title {
     font-size: 1.4rem;
     font-weight: 700;
-    color: #39ff14;
+    color: #61C2FA;
     margin-bottom: 8px;
 }
 

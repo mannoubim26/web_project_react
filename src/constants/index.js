@@ -3,12 +3,12 @@ export const APP_NAME = 'FitPulse';
 
 // Color Palette
 export const COLORS = {
-  primary: '#39ff14',
+  primary: '#61C2FA',
   secondary: '#00d4ff',
   accent: '#ff6b35',
-  dark: '#0a0a0a',
+  dark: '#112131',
   darkAlt: '#1a1a2e',
-  surface: '#16213e',
+  surface: '#CFE5DA',
   surfaceLight: '#1e2a4a',
   text: '#ffffff',
   textMuted: '#8892b0',

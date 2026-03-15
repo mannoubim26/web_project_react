@@ -1,4 +1,5 @@
 import { useLanguage } from '../../context/LanguageContext';
+import { useNavigate } from 'react-router-dom';
 import BottomNav from '../../components/BottomNav/BottomNav';
 import './AboutCoach.css';
 
@@ -48,14 +49,19 @@ const SOCIALS = [
 
 function AboutCoach() {
     const { t } = useLanguage();
+    const navigate = useNavigate();
 
     return (
         <div className="about-coach">
             {/* Header */}
-            <div className="about-coach__header">
-                <h2 className="about-coach__title">{t('aboutCoach.title')}</h2>
-                <p className="about-coach__subtitle">{t('aboutCoach.subtitle')}</p>
-            </div>
+            <header className="about-coach__header">
+                <button className="about-coach__back" onClick={() => navigate('/home')}>←</button>
+                <div>
+                    <h2 className="about-coach__title">{t('aboutCoach.title')}</h2>
+                    <p className="about-coach__subtitle">{t('aboutCoach.subtitle')}</p>
+                </div>
+                
+            </header>
 
             {/* Coach Profile */}
             <div className="about-coach__profile">

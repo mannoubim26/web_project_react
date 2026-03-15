@@ -9,8 +9,9 @@
 .exercises__header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 8px;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 30px;
     padding-top: 8px;
 }
 
@@ -22,8 +23,26 @@
 }
 
 .exercises__subtitle {
-    color: #8892b0;
+    color: #e0e3ed;
     font-size: 0.95rem;
+}
+
+.exercise__back {
+    background: #22415B;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exercise__back:hover {
+    border-color: #E8F5FA;
 }
 
 /* ── Day Selector ── */
@@ -39,10 +58,10 @@
     flex: 1;
     min-width: 56px;
     padding: 12px 8px;
-    background: rgba(22, 33, 62, 0.6);
+    background: #22415B;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 12px;
-    color: #8892b0;
+    color: #f6f6f6;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -52,13 +71,13 @@
 }
 
 .exercises__day-btn:hover {
-    border-color: rgba(57, 255, 20, 0.2);
+    border-color: rgba(242, 248, 241, 0.2);
 }
 
 .exercises__day-btn--active {
-    background: rgba(57, 255, 20, 0.15);
-    border-color: #39ff14;
-    color: #39ff14;
+    background: rgba(198, 222, 235, 0.15);
+    border-color: #E8F5FA;
+    color: #E8F5FA;
 }
 
 .exercises__day-name {
@@ -68,7 +87,7 @@
 
 /* ── Day Header ── */
 .exercises__day-header {
-    background: rgba(22, 33, 62, 0.6);
+    background: #22415B;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 14px;
     padding: 20px 24px;
@@ -89,14 +108,14 @@
 }
 
 .exercises__card {
-    background: rgba(22, 33, 62, 0.6);
+    background: #22415B;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 14px;
     padding: 20px;
 }
 
 .exercises__card:hover {
-    border-color: rgba(57, 255, 20, 0.15);
+    border-color: rgba(230, 238, 241, 0.15);
 }
 
 .exercises__card-header {
@@ -121,7 +140,7 @@
 }
 
 .exercises__card-item {
-    color: #c8d0e0;
+    color: #ffffff;
     font-size: 0.9rem;
     padding: 6px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.04);

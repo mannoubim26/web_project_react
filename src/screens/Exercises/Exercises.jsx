@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
+import { useNavigate } from 'react-router-dom';
 import { DAY_KEYS, DAY_SHORT_KEYS } from '../../constants';
 import LanguageSwitcher from '../../components/LanguageSwitcher/LanguageSwitcher';
 import BottomNav from '../../components/BottomNav/BottomNav';
@@ -9,6 +10,7 @@ import './Exercises.css';
 function Exercises() {
     const { t } = useLanguage();
     const [selectedDay, setSelectedDay] = useState(0);
+    const navigate = useNavigate();
 
     const currentDayKey = DAY_KEYS[selectedDay];
     const dayExercises = exercisesData.weeklyPlan[currentDayKey];
@@ -17,6 +19,7 @@ function Exercises() {
     return (
         <div className="exercises">
             <header className="exercises__header">
+                <button className="exercise__back" onClick={() => navigate('/home')}>←</button>
                 <div>
                     <h1 className="exercises__title">{t('exercises.title')}</h1>
                     <p className="exercises__subtitle">{t('exercises.subtitle')}</p>
