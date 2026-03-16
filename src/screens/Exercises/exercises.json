@@ -1,59 +1,59 @@
 {
     "weeklyPlan": {
         "monday": {
-            "Exercise list": {
-                "item1": "Exercise 1— x * y",
-                "item2": "Exercise 2— x * y",
-                "item3": "Exercise 3— x * y",
-                "item4": "Exercise 4— x * y"
+            "Exercises": {
+                "item1": { "name": "Sit-Ups", "image": "/src/assets/exercises/girl_situps.jpg" },
+                "item2": { "name": "Push-Ups", "image": "/src/assets/exercises/pushups.jpg" },
+                "item3": { "name": "Squats", "image": "/src/assets/exercises/squats.jpg" },
+                "item4": { "name": "Plank", "image": "/src/assets/exercises/plank.jpg" }
             }
         },
         "tuesday": {
-            "Exercise list": {
-                "item1": "Exercise 1— x * y",
-                "item2": "Exercise 2— x * y",
-                "item3": "Exercise 3— x * y",
-                "item4": "Exercise 4— x * y"
+            "Exercises": {
+                "item1": { "name": "Dead-Lifts", "image": "/src/assets/exercises/lift_weights.jpg" },
+                "item2": { "name": "Lunges", "image": "/src/assets/exercises/lunges.jpg" },
+                "item3": { "name": "Burpees", "image": "/src/assets/exercises/burpees.jpg" },
+                "item4": { "name": "Mountain Climbers", "image": "/src/assets/exercises/climbers.jpg" }
             }
         },
         "wednesday": {
-            "Exercise list": {
-                "item1": "Exercise 1— x * y",
-                "item2": "Exercise 2— x * y",
-                "item3": "Exercise 3— x * y",
-                "item4": "Exercise 4— x * y"
+            "Exercise": {
+                "item1": { "name": "Sit-Ups", "image": "/src/assets/exercises/girl_situps.jpg" },
+                "item2": { "name": "Squats", "image": "/src/assets/exercises/squats.jpg" },
+                "item3": { "name": "Crunches", "image": "/src/assets/exercises/crunches.jpg" },
+                "item4": { "name": "Glute Bridge", "image": "/src/assets/exercises/bridge.jpg" }
             }
         },
         "thursday": {
-            "Exercise list": {
-                "item1": "Exercise 1— x * y",
-                "item2": "Exercise 2— x * y",
-                "item3": "Exercise 3— x * y",
-                "item4": "Exercise 4— x * y"
+            "Exercise": {
+                "item1": { "name": "Push-Ups", "image": "/src/assets/exercises/pushups.jpg" },
+                "item2": { "name": "Tricep Dips", "image": "/src/assets/exercises/dips.jpg" },
+                "item3": { "name": "Plank", "image": "/src/assets/exercises/plank.jpg" },
+                "item4": { "name": "Wall Sit", "image": "/src/assets/exercises/wallsit.jpg" }
             }
         },
         "friday": {
-            "Exercise list": {
-                "item1": "Exercise 1— x * y",
-                "item2": "Exercise 2— x * y",
-                "item3": "Exercise 3— x * y",
-                "item4": "Exercise 4— x * y"
+            "Exercise": {
+                "item1": { "name": "High Knees", "image": "/src/assets/exercises/highknees.jpg" },
+                "item2": { "name": "Lunges", "image": "/src/assets/exercises/lunges.jpg" },
+                "item3": { "name": "Burpees", "image": "/src/assets/exercises/burpees.jpg" },
+                "item4": { "name": "Sit-Ups", "image": "/src/assets/exercises/girl_situps.jpg" }
             }
         },
         "saturday": {
-            "Exercise list": {
-                "item1": "Exercise 1— x * y",
-                "item2": "Exercise 2— x * y",
-                "item3": "Exercise 3— x * y",
-                "item4": "Exercise 4— x * y"
+            "Exercise": {
+                "item1": { "name": "Squats", "image": "/src/assets/exercises/squats.jpg" },
+                "item2": { "name": "Push-Ups", "image": "/src/assets/exercises/pushups.jpg" },
+                "item3": { "name": "Plank", "image": "/src/assets/exercises/plank.jpg" },
+                "item4": { "name": "Dead-Lifts", "image": "/src/assets/exercises/lift_weights.jpg" }
             }
         },
         "sunday": {
-            "Exercise list": {
-                "item1": "Exercise 1— x * y",
-                "item2": "Exercise 2— x * y",
-                "item3": "Exercise 3— x * y",
-                "item4": "Exercise 4— x * y"
+            "Rest Day": {
+                "item1": { "name": "Stretching", "image": "/src/assets/exercises/stretching.jpg" },
+                "item2": { "name": "Yoga Pose", "image": "/src/assets/exercises/yoga.jpg" },
+                "item3": { "name": "Light Walk", "image": "/src/assets/exercises/walk.jpg" },
+                "item4": { "name": "Deep Breathing", "image": "/src/assets/exercises/breathing.jpg" }
             }
         }
     }

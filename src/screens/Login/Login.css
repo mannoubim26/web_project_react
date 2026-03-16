@@ -5,6 +5,9 @@
     justify-content: center;
     position: relative;
     padding: 24px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('src/assets/empty_gym.jpg');
+    background-size: cover;
+    min-height: 100vh;
 }
 
 /* ── Language Switcher ── */
@@ -21,7 +24,7 @@
     z-index: 10;
     width: 100%;
     max-width: 440px;
-    background: rgba(22, 33, 62, 0.7);
+    background: rgba(42, 42, 44, 0.7);
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 16px;
     padding: 48px 40px;

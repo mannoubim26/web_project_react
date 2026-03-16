@@ -159,6 +159,30 @@
     border-bottom: none;
 }
 
+.exercises__card-item-container {
+    display: flex;
+    flex-direction: column; /* Nombre arriba, imagen abajo */
+    margin-bottom: 20px;
+    padding: 10px;
+    background: var(--color-surface-06);
+    border-radius: 8px;
+}
+
+.exercises__item-img {
+    width: 100%;
+    max-width: 300px; /* O el tamaño que prefieras */
+    height: auto;
+    border-radius: 12px;
+    margin-top: 10px;
+    object-fit: cover;
+    border: 1px solid var(--color-primary-020);
+}
+
+.exercises__image-wrapper {
+    display: flex;
+    justify-content: center; /* Centra la imagen debajo del texto */
+}
+
 @media (max-width: 480px) {
     .exercises {
         padding: 16px;

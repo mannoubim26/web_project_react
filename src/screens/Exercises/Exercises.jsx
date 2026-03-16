@@ -50,20 +50,28 @@ function Exercises() {
                 {groupKeys.map((groupKey) => {
                     const group = dayExercises[groupKey];
                     const items = Object.values(group);
-                    return (
-                        <div className="exercises__card" key={groupKey}>
-                            <div className="exercises__card-header">
-                                <span className="exercises__card-type">{groupKey}</span>
-                            </div>
-                            <ul className="exercises__card-items">
-                                {items.map((item, i) => (
-                                    <li key={i} className="exercises__card-item">{item}</li>
-                                ))}
-                            </ul>
-                        </div>
-                    );
-                })}
+
+                    return items.map((item, i) => (
+                    <div className="exercises__card" key={i}>
+                    <div className="exercises__card-header">
+                    <span className="exercises__card-type">{groupKey}</span>
+                    </div>
+                        <div className="exercises__card-item-container">
+                        <span className="exercises__card-item-name">
+                        {item.name}
+                        </span>
+                    <div className="exercises__image-wrapper">
+                        <img
+                            src={item.image}
+                            alt={item.name}
+                            className="exercises__item-img"
+                        />
+                    </div>
+                </div>
             </div>
+        ));
+    })}
+</div>
 
             <BottomNav />
         </div>
