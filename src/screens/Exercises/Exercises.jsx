@@ -24,7 +24,6 @@ function Exercises() {
                     <h1 className="exercises__title">{t('exercises.title')}</h1>
                     <p className="exercises__subtitle">{t('exercises.subtitle')}</p>
                 </div>
-                <LanguageSwitcher />
             </header>
 
             {/* Day Selector */}

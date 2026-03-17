@@ -51,7 +51,6 @@ function Progress() {
                     <h1 className="progress-screen__title">{t('progress.title')}</h1>
                     <p className="progress-screen__subtitle">{t('progress.subtitle')}</p>
                 </div>
-                <LanguageSwitcher />
             </header>
 
             <div className="progress-screen__charts">

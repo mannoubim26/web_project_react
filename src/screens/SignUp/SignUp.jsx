@@ -85,7 +85,6 @@ function SignUp() {
         <div className="signup">
             {/* Language Switcher */}
             <div className="signup__lang">
-                <LanguageSwitcher />
             </div>
 
             {/* Success Overlay */}

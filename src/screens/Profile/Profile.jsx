@@ -38,7 +38,6 @@ function Profile() {
                     <h1 className="profile__title">{t('profile.title')}</h1>
                     <p className="profile__subtitle">{t('profile.subtitle')}</p>
                 </div>
-                <LanguageSwitcher />
             </header>
 
             {/* Update Weight */}
