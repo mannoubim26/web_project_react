@@ -180,64 +180,20 @@
     margin-top: 40px;
 }
 
-.home__plan-list {
+.home__plan-buttons {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    margin-top: 16px;
 }
 
-.home__plan-item {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    padding: 16px;
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.04);
-    border-radius: 10px;
-}
-
-.home__plan-item:hover {
-    background: rgba(255, 255, 255, 0.06);
-}
-
-.home__plan-item--done {
-    opacity: 0.6;
-}
-
-.home__plan-check {
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    font-size: 0.85rem;
-    font-weight: 700;
-    background: #61C2FA;
-    color: #CFE5DA;
-}
-
-.home__plan-check--pending {
-    background: none;
-    border: 2px solid rgba(255, 255, 255, 0.15);
-}
-
-.home__plan-info {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-}
-
-.home__plan-name {
+.home__plan-buttons .btn {
+    background: #135a7a;
     color: #ffffff;
-    font-weight: 600;
-    font-size: 0.95rem;
 }
 
-.home__plan-detail {
-    color: #9ea7c2;
-    font-size: 0.82rem;
+.home__plan-buttons .btn:hover {
+    background: #1a6d91;
 }
 
 /* ── Responsive ── */
